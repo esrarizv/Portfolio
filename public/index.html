@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esra Rizvi - Google Search</title>
+<meta name="description" content="Portfolio of Esra Rizvi, Software Engineering student at the University of Sydney and Events Director at Google Developer Groups on Campus USYD.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="logo" onclick="lucky()">
+      <span class="c-blue">E</span><span class="c-red">s</span><span class="c-yellow">r</span><span class="c-blue">a</span><span class="c-green">&nbsp;</span><span class="c-red">R</span><span class="c-blue">i</span><span class="c-yellow">z</span><span class="c-green">v</span><span class="c-red">i</span>
+    </div>
+    <div class="searchbox">
+      <input id="searchInput" type="text" value="" aria-label="Search">
+      <div class="icons">
+        <span title="Search">🔍</span>
+        <span title="Feeling lucky?">🎲</span>
+      </div>
+    </div>
+    <div class="apps-grid" title="Google apps" onclick="lucky()"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="avatar" title="Esra Rizvi">ER</div>
+  </div>
+  <nav class="tabs">
+    <div class="tab active">All</div>
+    <div class="tab" onclick="scrollToId('experience')">Experience</div>
+    <div class="tab" onclick="scrollToId('projects')">Projects</div>
+    <div class="tab" onclick="scrollToId('skills')">Skills</div>
+    <div class="tab" onclick="scrollToId('leadership')">Leadership</div>
+    <div class="tab" onclick="window.print()">Print CV ⎙</div>
+  </nav>
+</header>
+
+<main class="container">
+  <section>
+    <div class="stats">About 1 result (0.42 seconds) - indexed from esrarizvi.dev</div>
+    <div class="didyoumean">Did you mean: <em>Esra - hire her immediately</em></div>
+
+    <!-- Result 1: About -->
+    <article class="result">
+      <div class="crumb"><span class="favicon">E</span>esrarizvi.dev › about</div>
+      <h3><a href="#about">Esra Rizvi - Software Engineer &amp; Data Science Student</a></h3>
+      <p><b>Esra Rizvi</b> is a final-year Software Engineering (Data Science) student at the University of Sydney, an
+      <b>Events Director at Google Developer Groups on Campus USYD</b>, and a former Software Engineering Intern at AMZINT.
+      Known for Python automation, Linux tooling, REST APIs, computer vision pipelines and an unhealthy enthusiasm for
+      test frameworks and HIL development.</p>
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">Linux</span><span class="chip">REST APIs</span>
+        <span class="chip">Git</span><span class="chip">Agile</span><span class="chip">YOLO / PyTorch</span>
+        <span class="chip">Automated Testing</span>
+      </div>
+      <div class="sitelinks">
+        <a href="mailto:esrarizvi789@gmail.com">Email<span>esrarizvi789@gmail.com</span></a>
+        <a href="tel:+61432997551">Call<span>+61 432 997 551</span></a>
+        <a href="#experience">Experience<span>4+ roles, 1 internship</span></a>
+        <a href="#projects">Projects<span>3 shipped builds</span></a>
+      </div>
+    </article>
+
+    <!-- People also ask -->
+    <div class="paa">
+      <h4>People also ask</h4>
+      <details>
+        <summary>Is Esra affiliated with Google?</summary>
+        <div class="answer">Esra is the <b>Events Director of Google Developer Groups (GDG) on Campus at USYD</b> - leading
+        technical workshops, networking events and industry engagement for students, coordinating sponsors, timelines and
+        stakeholder comms from planning through execution.</div>
+      </details>
+      <details>
+        <summary>What does Esra actually build?</summary>
+        <div class="answer">Python automation and backend tooling, REST API integrations for software-hardware communication,
+        automated validation pipelines that cut manual testing effort, and a YOLO-based livestock detection system. Also a
+        3,000+ line modular Pac-Man engine in Java - ghosts included.</div>
+      </details>
+      <details>
+        <summary>Can she work in Linux?</summary>
+        <div class="answer">Extensively. Command-line tooling, Git workflows, debugging via log analysis, and
+        configuration-driven test execution with JSON and modular Python components. Terminal is home.</div>
+      </details>
+      <details>
+        <summary>Is she available for hire?</summary>
+        <div class="answer">Graduating June 2027 from the University of Sydney. Currently open to graduate roles and
+        internships in software, test automation, robotics and data engineering. Yes - that was a hint.</div>
+      </details>
+    </div>
+
+    <!-- Result 2: Experience -->
+    <article class="result" id="experience">
+      <div class="crumb"><span class="favicon">▶</span>esrarizvi.dev › experience</div>
+      <h3><a href="#experience">Professional Experience - AMZINT, Kantar, EB Games</a></h3>
+      <p><b>Software Engineering Intern @ AMZINT</b> (May 2025 – Jan 2026): built Python/TypeScript backend services and
+      automation scripts for deployment, testing and data-processing; implemented REST API integrations for
+      software-hardware communication and system monitoring; debugged via log analysis and root-cause identification;
+      built automated validation pipelines and wrote technical documentation.<br><br>
+      <b>Market Research Team Leader @ Kantar</b> (Jan 2024 – Present): informal team leadership in a high-volume,
+      target-driven environment - onboarding new members, troubleshooting, resolving operational issues and hitting
+      quality targets.<br><br>
+      <b>Sales Assistant @ EB Games</b> (Jul 2023 – Dec 2025): POS systems, inventory data accuracy, identifying and
+      escalating discrepancies, strict customer-data handling.</p>
+    </article>
+
+    <!-- Result 3: Projects -->
+    <article class="result" id="projects">
+      <div class="crumb"><span class="favicon">▶</span>esrarizvi.dev › projects</div>
+      <h3><a href="#projects">Technical Projects - Pac-Man Engine, AI Livestock Detection, Test Harness</a></h3>
+      <p>
+      <b>🟡 Pac-Man Game Engine</b> - Java 17, JavaFX, Gradle: 3,000+ LOC modular OOP build with AI behaviour,
+      collision detection, state management, JSON-configured scalability.<br>
+      <b>🐄 AI Livestock Detection System</b> - Python, PyTorch, YOLO (Ultralytics): end-to-end CV pipeline with
+      automated large-scale data processing and model evaluation.<br>
+      <b>🧪 Automated Device Test Harness</b> - Python, Linux, Git: configuration-driven (JSON) test execution,
+      automated log collection, result parsing and report generation. Reproducibility, modularity, validation.</p>
+    </article>
+
+    <!-- Result 4: Leadership -->
+   <article class="result" id="leadership">
+    <div class="crumb">
+      <span class="favicon">G</span>esrarizvi.dev › leadership
+    </div>
+
+    <h3>
+      #leadership
+        Leadership &amp; Community - Google Developer Groups on Campus USYD
+      </a>
+    </h3>
+
+    <p>
+      <b>Events Director, GDG on Campus USYD</b> (Aug 2026 – Present): leading technical workshops, networking events and industry engagement, managing timelines, logistics and stakeholder communication across student teams, sponsors and industry reps.
+
+      <br><br>
+
+      <b>Subcommittee, USYD Software Engineering Society</b> (Aug–Dec 2025)
+
+      <br><br>
+
+      <b>Undergraduate Engineering Mentor, Faculty of Engineering</b> (Feb–Jun 2024)
+    </p>
+  </article>
+
+    <!-- Skills -->
+    <article class="result" id="skills">
+      <div class="crumb"><span class="favicon">▶</span>esrarizvi.dev › skills</div>
+      <h3><a href="#skills">Skills - Languages, Tools &amp; Engineering Practice</a></h3>
+      <p><b>Languages:</b> Python, C, Java, JavaScript, TypeScript, SQL ·
+      <b>Engineering:</b> REST APIs, Git, Linux, Agile, CI/CD, OOP, hardware-software integration, automated testing &amp; validation ·
+      <b>Data &amp; ML:</b> PyTorch, NumPy, scikit-learn, computer vision, data analysis ·
+      <b>Human:</b> analytical problem solving, technical communication, team collaboration, stakeholder engagement.</p>
+    </article>
+
+    <!-- Result 5: Contact -->
+    <article class="result" id="contact">
+      <div class="crumb"><span class="favicon">&#9993;</span>esrarizvi.dev &rsaquo; contact</div>
+      <h3><a href="#contact">Contact Esra Rizvi - Send a message</a></h3>
+      <p>Fields marked with a reply are answered within 24 hours. This form talks to a real backend.</p>
+      <form id="contactForm" class="contact-form">
+        <input name="name" placeholder="Your name" required maxlength="100">
+        <input name="email" type="email" placeholder="Your email" required maxlength="150">
+        <textarea name="message" placeholder="Your message" required maxlength="2000"></textarea>
+        <button type="submit" class="g-btn">Send message &#9993;</button>
+        <span id="formStatus"></span>
+      </form>
+    </article>
+
+    <!-- Gooooogle pagination -->
+    <div class="pagination">
+      <div class="goooo"><span class="c-blue">G</span><span class="c-red">o</span><span class="c-yellow">o</span><span class="c-blue">o</span><span class="c-green">o</span><span class="c-red">o</span><span class="c-blue">g</span><span class="c-green">l</span><span class="c-red">e</span></div>
+      <div class="nums">
+        <a href="#" onclick="lucky();return false;">1</a>
+        <a href="#" onclick="lucky();return false;">2</a>
+        <a href="#" onclick="lucky();return false;">3</a>
+        <a href="#" onclick="lucky();return false;">Next ></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Knowledge Panel -->
+  <aside>
+    <div class="kp">
+      <div class="kp-banner">ESRA RIZVI</div>
+      <div class="kp-body">
+        <h2>Esra Rizvi</h2>
+        <div class="role">Software Engineering Student · Data Science Major</div>
+        <div>
+          <a class="g-btn" href="mailto:esrarizvi789@gmail.com">✉ Email</a>
+          <a class="g-btn" href="tel:+61432997551">📞 Call</a>
+        </div>
+        <div class="kp-divider"></div>
+        <dl>
+          <dt>Education</dt><dd>The University of Sydney - B. Software Engineering (Data Science), expected June 2027</dd>
+          <dt>Currently</dt><dd>Events Director, <b>Google Developer Groups on Campus USYD</b></dd>
+          <dt>Previously</dt><dd>Software Engineering Intern @ AMZINT</dd>
+          <dt>Coursework</dt>
+          <dd><div class="tags"><span class="tag">Database Systems</span><span class="tag">Machine Learning</span><span class="tag">Data Structures &amp; Algorithms</span><span class="tag">Agile</span><span class="tag">Data Analytics</span></div></dd>
+          <dt>Interests</dt>
+          <dd><div class="tags"><span class="tag">Software Development</span><span class="tag">Test Frameworks</span><span class="tag">Firmware Deployment</span><span class="tag">HIL Development</span><span class="tag">Automation</span></div></dd>
+        </dl>
+        <div class="rate">★★★★★ <b>5.0</b> · 1 hire (you?)</div>
+        <div class="kp-divider"></div>
+        <p style="font-size:13px;color:var(--sub)">Passionate about data science, automation and real-world engineering systems. Based in Sydney, NSW.</p>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<!-- I'm Feeling Lucky modal -->
+<div class="modal-overlay" id="luckyModal">
+  <div class="modal">
+    <div style="font-size:42px">
+      <span class="c-blue">G</span><span class="c-red">o</span><span class="c-yellow">o</span><span class="c-blue">g</span><span class="c-green">l</span><span class="c-red">e</span>
+    </div>
+    <h2>I'm Feeling Lucky</h2>
+    <p>Lucky you - you found the best result on this page. There is no page 2.
+    Just email <b>esrarizvi789@gmail.com</b> and let's talk software, automation, or GDG events.</p>
+    <button class="close-btn" onclick="closeLucky()">Back to results</button>
+  </div>
+</div>
+
+<footer>
+  <div class="inner">
+    <span>Australia</span><span>Sydney, NSW</span>
+    <span>·</span><span>Help</span><span>Send feedback</span><span>Privacy - it's just a résumé</span><span>Terms of hire: negotiable</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
