@@ -88,7 +88,7 @@ Open your browser and navigate to the local address displayed in your terminal.
 Feel free to connect with me for opportunities, collaborations, or questions.
 
 - **GitHub:** [esrarizv](https://github.com/esrarizv)
-- **LinkedIn:** [Add LinkedIn Profile](www.linkedin.com/in/esra-rizvi)
+- **LinkedIn:** [Esra Rizvi](www.linkedin.com/in/esra-rizvi)
 
 ---
 
