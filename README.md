@@ -5,7 +5,7 @@ A Google-inspired personal portfolio website showcasing my experience, projects,
 
 ## Live Demo
 
-**🔗 Portfolio:** [View My Portfolio](https://your-portfolio-link.com)
+**🔗 Portfolio:** [View My Portfolio](https://portfolio-kappa-umber-24.vercel.app/)
 
 ---
 
